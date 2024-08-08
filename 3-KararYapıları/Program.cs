@@ -5,7 +5,127 @@ internal class Program
     static void Main(string[] args)
 
     {
-        #region Urun Tanimlama
+        #region
+        /* 2 vize 1 final okutun . vizenin %30 finalin %70'ni alin 
+        *
+             * Ckan sonuc  0-30 arasinda ise FF
+             * 30-50 araligi DD
+             * 50-70 arasi BB
+             * 70-100 arasi AA
+             * Olacak sekilde kullaniciyi bilgilendirin.
+            */
+        int vize1;
+        int vize2;
+        int final;
+        double NotOrtalamasi;
+
+        Console.WriteLine("1. Vize Notunuzu Giriniz:");
+        vize1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("2. Vize Notunuzu Giriniz:");
+        vize2 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Final Notunuzu Giriniz:");
+        final = int.Parse(Console.ReadLine());
+
+        NotOrtalamasi = (((vize1 + vize2) / 2) * 0.30) + (final * 0.70);
+
+        if (NotOrtalamasi >= 0 && NotOrtalamasi<30)
+        {
+            Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> FF");
+        }
+
+        if (NotOrtalamasi >= 30 && NotOrtalamasi < 50)
+        {
+            Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> DD");
+        }
+
+        if (NotOrtalamasi >= 50 && NotOrtalamasi < 70)
+        {
+            Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> BB");
+        }
+
+        if (NotOrtalamasi >= 70 && NotOrtalamasi <= 100)
+        {
+            Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> AA");
+        }
+
+
+
+
+
+
+
+
+        #endregion
+
+        #region Siparis Sayısı Odev2
+
+        /** 
+            Urun fiyati:5 Tl olsun
+            Disaridan girilecek siparis sayisina gore
+            20 de az ise toplam ucretten % 5 indirim yapilacak
+            20 - 50 arasinda ise % 10 indirim
+            50 - 100 arasinda ise % 15 indirim
+            100 ve uzeri icin % 20 indirim yapilsin
+            Ekrana Toplam tutar ,indirim miktari ve Odenecek tutar bilgilerini yazdirin
+        
+            
+
+        int UrunFiyati;
+        int SiparisAdedi;
+        int ToplamTutar;
+        double IndirimMiktari;
+        double OdenecekTutar;
+
+        UrunFiyati = 5;
+        SiparisAdedi = 1;
+     
+        while (SiparisAdedi != 0)            
+        {
+            Console.WriteLine("Siparis Adedi Giriniz veya CIkmak icin -0- giriniz");
+            SiparisAdedi = int.Parse(Console.ReadLine());
+            if (SiparisAdedi < 20 && SiparisAdedi > 0)
+            {
+                Console.WriteLine("Toplam Tutar =" + (ToplamTutar = UrunFiyati * SiparisAdedi));
+                Console.WriteLine("Indirim Miktari =" + (IndirimMiktari = ToplamTutar * 0.05));
+                Console.WriteLine("Odenecek Tutar =" + (OdenecekTutar = ToplamTutar - IndirimMiktari));
+            }
+
+            else if (SiparisAdedi < 50 && SiparisAdedi >= 20)
+            {
+                Console.WriteLine("Toplam Tutar =" + (ToplamTutar = UrunFiyati * SiparisAdedi));
+                Console.WriteLine("Indirim Miktari =" + (IndirimMiktari = ToplamTutar * 0.10));
+                Console.WriteLine("Odenecek Tutar =" + (OdenecekTutar = ToplamTutar - IndirimMiktari));
+            }
+
+            else if (SiparisAdedi < 100 && SiparisAdedi >= 50)
+            {
+                Console.WriteLine("Toplam Tutar =" + (ToplamTutar = UrunFiyati * SiparisAdedi));
+                Console.WriteLine("Indirim Miktari =" + (IndirimMiktari = ToplamTutar * 0.15));
+                Console.WriteLine("Odenecek Tutar =" + (OdenecekTutar = ToplamTutar - IndirimMiktari));
+            }
+
+            else if (SiparisAdedi >= 100)
+            {
+                Console.WriteLine("Toplam Tutar =" + (ToplamTutar = UrunFiyati * SiparisAdedi));
+                Console.WriteLine("Indirim Miktari =" + (IndirimMiktari = ToplamTutar * 0.20));
+                Console.WriteLine("Odenecek Tutar =" + (OdenecekTutar = ToplamTutar - IndirimMiktari));
+            }
+            else if (SiparisAdedi == 0)
+            {
+                SiparisAdedi = 0;
+                Console.WriteLine("Çıkış Yapılıyor. İyi Günler Dileriz");
+            }
+
+        }*/
+
+
+
+
+        #endregion
+
+        #region Urun Tanimlama Odev
         /*
         Disaridan urun adi girilecek
         program urunun hangi reyonda oldugunu soyleyecek
@@ -13,7 +133,7 @@ internal class Program
         Diş mancunu, Parfum, Krem icin Kozmetik reyonu
         Telefon, Bilgisayar, Ses sistemleri icin Teknoloji reyonu
         Bunlardan farkli  bir urun girer ise "Bu urun bizde yok " uyarisi verecek
-        */
+        
         string urun;
 
         urun = "Patates";
@@ -54,11 +174,11 @@ internal class Program
                 Console.WriteLine("Bu ürün Bizde Bulunmuyor.");
 
             }
-        }
-        
+        }*/
+
         #endregion
 
-        #region
+        #region Haftanin Günleri
 
         //Ekrandan haftanin kacinci gununde oldugunu ısteyın ve gunu yazdirin.Baslangıc gununu pazartesi olarak alalim.
 
@@ -110,7 +230,7 @@ internal class Program
         } */
         #endregion
 
-        #region
+        #region Madde Hali
 
         //Klavyeden Girilensuyun sicakligina gore katıi sivi gaz mesajini ekrana basalim
 
