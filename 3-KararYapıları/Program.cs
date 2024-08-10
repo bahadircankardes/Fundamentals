@@ -5,15 +5,15 @@ internal class Program
     static void Main(string[] args)
 
     {
-        #region
+        #region Not Ort.Odev
         /* 2 vize 1 final okutun . vizenin %30 finalin %70'ni alin 
         *
              * Ckan sonuc  0-30 arasinda ise FF
              * 30-50 araligi DD
              * 50-70 arasi BB
              * 70-100 arasi AA
-             * Olacak sekilde kullaniciyi bilgilendirin.
-            */
+             * Olacak sekilde kullaniciyi bilgilendirin.*/
+
         int vize1;
         int vize2;
         int final;
@@ -48,7 +48,7 @@ internal class Program
         if (NotOrtalamasi >= 70 && NotOrtalamasi <= 100)
         {
             Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> AA");
-        }
+        } 
 
 
 
@@ -69,8 +69,8 @@ internal class Program
             50 - 100 arasinda ise % 15 indirim
             100 ve uzeri icin % 20 indirim yapilsin
             Ekrana Toplam tutar ,indirim miktari ve Odenecek tutar bilgilerini yazdirin
-        
-            
+
+
 
         int UrunFiyati;
         int SiparisAdedi;
