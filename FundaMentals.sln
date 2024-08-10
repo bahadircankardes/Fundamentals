@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegiskenTanımlama", "Degis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-KararYapıları", "3-KararYapıları\3-KararYapıları.csproj", "{F2A475C7-39AB-4284-BEC5-BCDC8A59C6DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{540D5721-ED01-4FAD-92E7-71C7B2D25830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2A475C7-39AB-4284-BEC5-BCDC8A59C6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A475C7-39AB-4284-BEC5-BCDC8A59C6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A475C7-39AB-4284-BEC5-BCDC8A59C6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540D5721-ED01-4FAD-92E7-71C7B2D25830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540D5721-ED01-4FAD-92E7-71C7B2D25830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540D5721-ED01-4FAD-92E7-71C7B2D25830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540D5721-ED01-4FAD-92E7-71C7B2D25830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
