@@ -311,7 +311,7 @@ internal class Program
 
         #endregion
 
-        #region switch case kopyala
+        #region switch case
 
         /*
              * 
@@ -410,12 +410,36 @@ internal class Program
 
         #endregion
 
-        #region Kopyala
+        #region Switch Case ornekler
 
         /*string rol;
-        Console.WriteLine("Rol Giriniz:");
-
-        */
+        Console.WriteLine("Rol Giriniz");
+        rol = Console.ReadLine();
+        int sayi = 0;
+        switch (sayi)
+        {
+            case 1:
+                Console.WriteLine();
+                break;
+            default:
+                break;
+        }
+        switch (rol)
+        {
+            case "Moderator":
+            case "CEO":
+            case "Administrator":
+                Console.WriteLine("Admin sayfasina yonlendiriliyorsunuz");
+                break;
+            case "Uye":
+            case "Memeber":
+            case "Maraba":
+                Console.WriteLine("Uye sayfasina yonlendiriliyorsunuz");
+                break;
+            default:
+                Console.WriteLine("Yetkisiz kullanici. Giris yapin");
+                break;
+        } */
 
         #endregion
 
@@ -492,7 +516,8 @@ internal class Program
 
         #endregion
 
-        #region
+        #region Mevsimin Ayları
+        /*
 
         string mevsim;
         Console.WriteLine("Mevsim adı giriniz.");
@@ -521,8 +546,41 @@ internal class Program
                 break;
 
         }
+        */
 
+        #endregion
 
+        #region Username Password
+
+        /*Kullanıcıdan username ve password isteyin.
+         admin admin girildiyse hoş geldin mesajı verilecek
+        yanlış olduğunda hangi girişin yanlıs oldugu gırılecek*/
+
+        string username, password;
+        Console.WriteLine("UserName:");
+        username = Console.ReadLine();
+        Console.WriteLine("Password:");
+        password = Console.ReadLine();
+
+        switch (username)
+        {
+
+            case "admin":
+                switch (password)
+                {
+                    case "admin":
+                        Console.WriteLine("Hosgeldin Admin");
+                        break;
+
+                    default:
+                        Console.WriteLine("Kullanici Adi dogru Sifre Yanliş");
+                        break;
+                }
+                break;
+            default:
+                Console.WriteLine("Kullanici Adi Yanliş. Şifreye bakmaya gerek kalmadi");
+                break;
+        }
         #endregion
 
 
