@@ -413,12 +413,15 @@ internal class Program
         #region Kopyala
 
         /*string rol;
-        Console.WriteLine("Rol Giriniz:");*/
+        Console.WriteLine("Rol Giriniz:");
 
+        */
 
         #endregion
 
         #region Ekrandan girilen ayı okutma
+
+        /*
 
         string ay;
         Console.WriteLine("Ay giriniz. [1-12]:");
@@ -484,8 +487,40 @@ internal class Program
 
 
 
-        /*string rol;
-        Console.WriteLine("Rol Giriniz:");*/
+        */
+
+
+        #endregion
+
+        #region
+
+        string mevsim;
+        Console.WriteLine("Mevsim adı giriniz.");
+        mevsim = Console.ReadLine();
+
+        switch (mevsim)
+        {
+            case "sonbahar":
+                Console.WriteLine("Eylül, Ekim, Kasım");
+                break;
+
+            case "kis":
+                Console.WriteLine("Aralık, Ocak, Şubat");
+                break;
+
+            case "ilkbahar":
+                Console.WriteLine("Mart, Nisan, Mayıs");
+                break;
+
+            case "yaz":
+                Console.WriteLine("Haziran, Temmuz, Ağustos");
+                break;
+
+            default:
+                Console.WriteLine("Tanımsız");
+                break;
+
+        }
 
 
         #endregion
