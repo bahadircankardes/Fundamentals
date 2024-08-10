@@ -12,7 +12,7 @@ internal class Program
              * 30-50 araligi DD
              * 50-70 arasi BB
              * 70-100 arasi AA
-             * Olacak sekilde kullaniciyi bilgilendirin.*/
+             * Olacak sekilde kullaniciyi bilgilendirin.
 
         int vize1;
         int vize2;
@@ -49,7 +49,7 @@ internal class Program
         {
             Console.WriteLine("Not Ortalamanız: " + NotOrtalamasi + "----> AA");
         } 
-
+        */
 
 
 
@@ -273,5 +273,224 @@ internal class Program
         */
 
         #endregion
+
+        #region Ternary IF
+
+        /*Eger tek satırda bir kontrol yapılacaksa ? operatoru kullanılabılır
+         Kullanımı; degisken = atanacakDeger== null? true
+
+        string temp1=="", temp2;
+
+        temp2 = temp1 == "" ? "Boş" : "Test";
+
+        /*
+        if (temp1 == "")
+
+        {
+        temp2 = "Boş"
+        }
+
+        else
+        {
+         temp2 = "Test"
+        }
+
+  
+         */
+        #endregion
+
+        #region Ternary IF
+
+        /*Console.WriteLine("Adinizi Giriniz:");
+        string ad;
+
+        ad = Console.ReadLine();
+        temp1 = ad == null ? "" : "";
+        */
+
+
+        #endregion
+
+        #region switch case kopyala
+
+        /*
+             * 
+             * if - else mantigiyla benzerdir. Aradaki fark if-else buyukluk ,kucukluk gibi durmlari kontrol ederken ,switch case esitlik durumlarinda kullanilir.
+             * EKndisine ait bir indexleme yapisi vardir 
+             * O nedenle cok fazla sayida if else kullanilan durumlarda performans icin switch case tercih edilir
+             * 
+            
+
+        string plakakodu;
+        Console.WriteLine("Plaka kodunu giriniz");
+        plakakodu = Console.ReadLine();
+
+        if (plakakodu == "01")
+        {
+            Console.WriteLine("Adana");
+        }
+        else if (plakakodu == "02")
+        {
+            Console.WriteLine("Adiyaman");
+        }
+        else if (plakakodu == "03")
+        {
+            Console.WriteLine("Afyon");
+        }
+        else if (plakakodu == "04")
+        {
+            Console.WriteLine("Agri");
+        }
+        else if (plakakodu == "05")
+        {
+            Console.WriteLine("Amasya");
+        }
+        else if (plakakodu == "06")
+        {
+            Console.WriteLine("Ankara");
+        }
+        else if (plakakodu == "07")
+        {
+            Console.WriteLine("Antalya");
+        }
+        else if (plakakodu == "08")
+        {
+            Console.WriteLine("Artvin");
+        }
+        else if (plakakodu == "09")
+        {
+            Console.WriteLine("Aydin");
+        }
+        else if (plakakodu == "10")
+        {
+            Console.WriteLine("Balikesir");
+        }
+
+        switch (plakakodu)
+        {
+
+            case "01":
+                Console.WriteLine("Adana");
+                break;
+            case "02":
+                Console.WriteLine("Adiyaman");
+                break;
+            case "03":
+                Console.WriteLine("Afyon");
+                break;
+            case "04":
+                Console.WriteLine("Agri");
+                break;
+            case "05":
+                Console.WriteLine("Amasya");
+                break;
+            case "06":
+                Console.WriteLine("Ankara");
+                break;
+            case "07":
+                Console.WriteLine("Antalya");
+                break;
+            case "08":
+                Console.WriteLine("Artvin");
+                break;
+            case "09":
+                Console.WriteLine("Aydin");
+                break;
+            case "10":
+                Console.WriteLine("Balikesir");
+                break;
+            default:
+                // Yukaridakilerin hicbiri olmaz ise default kismi calisir
+                Console.WriteLine("Tanimsiz ");
+                break;
+        }
+
+
+         */
+
+        #endregion
+
+        #region Kopyala
+
+        /*string rol;
+        Console.WriteLine("Rol Giriniz:");*/
+
+
+        #endregion
+
+        #region Ekrandan girilen ayı okutma
+
+        string ay;
+        Console.WriteLine("Ay giriniz. [1-12]:");
+        ay = Console.ReadLine();
+
+        switch (ay)
+        {
+            case "1":
+                Console.WriteLine("Ocak");
+                break;
+
+            case "2":
+                Console.WriteLine("Şubat");
+                break;
+
+            case "3":
+                Console.WriteLine("Mart");
+                break;
+
+            case "4":
+                Console.WriteLine("Nisan");
+                break;
+
+            case "5":
+                Console.WriteLine("Mayıs");
+                break;
+
+            case "6":
+                Console.WriteLine("Haziran");
+                break;
+
+            case "7":
+                Console.WriteLine("Temmuz");
+                break;
+
+            case "8":
+                Console.WriteLine("Ağustos");
+                break;
+
+            case "9":
+                Console.WriteLine("Eylül");
+                break;
+
+            case "10":
+                Console.WriteLine("Ekim");
+                break;
+
+            case "11":
+                Console.WriteLine("Kasım");
+                break;
+
+            case "12":
+                Console.WriteLine("Aralık");
+                break;
+
+            default:
+
+                Console.WriteLine("Tanimsiz ");
+                break;
+        }
+
+                
+
+
+
+        /*string rol;
+        Console.WriteLine("Rol Giriniz:");*/
+
+
+        #endregion
+
+
     }
+
 }
