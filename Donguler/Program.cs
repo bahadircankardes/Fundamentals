@@ -105,7 +105,7 @@ class Program
 
         #endregion
 
-        #region Örnekler githubdan al
+        #region Örnekler 
 
         //1 - 100 arasindaki sayilarin rastgele olacak sekilde bir diziye atip, tek toplami ve cift toplamlarinin ortalamasini bulalim
         int[] sayilar = new int[100];
