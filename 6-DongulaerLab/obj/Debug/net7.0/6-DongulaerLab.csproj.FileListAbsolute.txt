@@ -1,0 +1,15 @@
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/bin/Debug/net7.0/6-DongulaerLab
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/bin/Debug/net7.0/6-DongulaerLab.deps.json
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/bin/Debug/net7.0/6-DongulaerLab.runtimeconfig.json
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/bin/Debug/net7.0/6-DongulaerLab.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/bin/Debug/net7.0/6-DongulaerLab.pdb
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.csproj.AssemblyReference.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.AssemblyInfoInputs.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.AssemblyInfo.cs
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.csproj.CoreCompileInputs.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/refint/6-DongulaerLab.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.pdb
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/6-DongulaerLab.genruntimeconfig.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/6-DongulaerLab/obj/Debug/net7.0/ref/6-DongulaerLab.dll

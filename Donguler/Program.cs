@@ -16,7 +16,7 @@ class Program
 
         //1-100 arasındaki tek sayiları yazdıralım.
 
-        for (int i = 0; i < 100; i++)
+        /*for (int i = 0; i < 100; i++)
         {
             Console.WriteLine((i%2==0?"":"Tek"+i));
         }
@@ -25,6 +25,8 @@ class Program
         {
             Console.WriteLine(i);
         }
+        */
+
         #endregion
 
         #region Dizinin eleman sayisini degistirme
@@ -90,7 +92,7 @@ class Program
 
         #region Devam etmek istiyormusunuz [E/H] sorusuna 'H' diyene kadar calisack while dongusu
 
-        string cevap = "";
+        /*string cevap = "";
         int sayac = 0;
         while (cevap != "H")
         {
@@ -99,6 +101,67 @@ class Program
             sayac++;
         }
 
+        */
+
+        #endregion
+
+        #region Örnekler githubdan al
+
+        //1 - 100 arasindaki sayilarin rastgele olacak sekilde bir diziye atip, tek toplami ve cift toplamlarinin ortalamasini bulalim
+        int[] sayilar = new int[100];
+        byte sayac = 0;
+        double tekOrtalama, ciftOrtalama;
+        int tekToplam = 0, ciftToplam = 0, tekAdet = 0, ciftAdet = 0;
+        Random rnd = new Random();
+        do
+        {
+
+            sayilar[sayac] = rnd.Next(100);
+            if (sayilar[sayac] % 2 == 0)
+            {
+                ciftToplam += sayilar[sayac];
+                ciftAdet += 1; // ciftAdet = ciftAdet+1
+            }
+            else
+            {
+                tekToplam += sayilar[sayac];
+                tekAdet += 1;
+            }
+            sayac++; // sayac = sayac +1
+
+        } while (sayac < 10);
+
+        tekOrtalama = tekToplam / tekAdet;
+        ciftOrtalama = ciftToplam / ciftAdet;
+        Console.WriteLine("Dizideki Tek Toplam:" + tekToplam + " Ortalama:" + tekOrtalama);
+        Console.WriteLine("Dizideki Cift Toplam:" + ciftToplam + " Ortalama:" + ciftOrtalama);
+        
+        //sayac = 0;
+        //while(sayac<100)
+        //{
+
+        //    sayilar[sayac] = rnd.Next(100);
+        //    sayac++;
+        //}
+
+        //for (int i = 0; i < sayilar.Length; i++)
+        //{
+        //    sayilar[i] = rnd.Next(100);
+        //}
+
+
+
+        #endregion
+
+        #region Foreach
+
+        // Foreach dongu degildir. Iterasyondur . Calismasi icin mutlaka bir veri setine ihtiyac duyar. Yani foreach ile durduk yere 10 kere console.writeline yazdiramazsiniz.
+
+        //Console.WriteLine("For Each.....");
+        //foreach (var item in sayilar)
+        //{
+        //    Console.WriteLine(item);
+        //}
 
 
         #endregion
