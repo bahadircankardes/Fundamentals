@@ -109,6 +109,7 @@ class Program
 
         #region ilk 20 fibonacciyi bulun
 
+
         int sayac1 = 0, sayac2 = 2;
         int[] sayilar = new int[20];
         sayilar[0] = 1;
@@ -126,7 +127,7 @@ class Program
         {
             Console.WriteLine(sayilar[i]);
         }
-
+        Console.ReadLine();
 
 
 
