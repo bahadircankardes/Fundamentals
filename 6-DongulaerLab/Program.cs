@@ -263,6 +263,8 @@ class Program
 
         #region Diziyi kucukten buyuge dogru siralayiniz.
 
+        /*
+
         int[] sayilar = new int[5];
         Random rnd = new Random();
 
@@ -272,13 +274,30 @@ class Program
             Console.WriteLine(sayilar[i]);
 
         }
-        Console.ReadLine();
 
+        for (int j = 0; j < 5; j++)
+        {
+            if (sayilar[j] <)
+
+        }
+        Console.ReadLine();
+        */
 
         #endregion
 
 
+        #region Hazır Metodlar
 
+        int[] array = {2, 4, 2, 6, 7,  8, 4, 5, 99, 8, 7 };
+        int[] array = { 3, 4, 2, 6, 7, 8, 4, 5, 99, 8, 7 };
+
+        Console.WriteLine("Dizi Toplamı: "+ array.Sum());
+        Console.WriteLine("Dizideki en buyuk eleman: " + array.Max());
+        Console.WriteLine("Dizideki en kucuk eleman: " + array.Min());
+        Console.WriteLine("Dizideki sayilarin ortalamaları: " + array.Average());
+        Console.ReadLine();
+
+        #endregion
 
     }
 }
