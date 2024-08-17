@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qVmQZkkdupVuSxMdT1Ye5mthz2/Bf0v4mRzdfg8+GaYrmDk9dQNJdlKyGAoSD6/1CDLRNnbnqA9u1OULlTaSVQ==",
+  "dgSpecHash": "LmfFySOKBdfD1f0WzT6KUejFUilKG9QaRB6e4bEdy3MunJ9yXVkKTjxd8I4bgCJTlBSdFjxmo6ze8NVVQFmSIw==",
   "success": true,
   "projectFilePath": "/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/18-Dosyaİslemleri/18-Dosyaİslemleri.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/bahadircankardes/.nuget/packages/bogus/35.6.0/bogus.35.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
