@@ -1,0 +1,15 @@
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/bin/Debug/net7.0/19-GenelTekrar
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/bin/Debug/net7.0/19-GenelTekrar.deps.json
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/bin/Debug/net7.0/19-GenelTekrar.runtimeconfig.json
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/bin/Debug/net7.0/19-GenelTekrar.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/bin/Debug/net7.0/19-GenelTekrar.pdb
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.csproj.AssemblyReference.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.AssemblyInfoInputs.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.AssemblyInfo.cs
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.csproj.CoreCompileInputs.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/refint/19-GenelTekrar.dll
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.pdb
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/19-GenelTekrar.genruntimeconfig.cache
+/Users/bahadircankardes/source/repos/Wissen2024/Fundamentals/FundaMentals/19-GenelTekrar/obj/Debug/net7.0/ref/19-GenelTekrar.dll
