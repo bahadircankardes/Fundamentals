@@ -96,6 +96,7 @@ internal class Program
         }
         Console.WriteLine($"Toplam Kdv:{toplamkdv.ToString("0.00")}  ToplamTutar:{toplamtutar.ToString("0.00")}");
         Console.ReadLine();
+        Console.ReadLine();
     }
 
 }
