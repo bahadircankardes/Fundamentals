@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Dosyaİslemleri", "18-Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-GenelTekrar", "19-GenelTekrar\19-GenelTekrar.csproj", "{15516DD4-487F-4D3B-8988-074936A4AEE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odevler", "Odevler\Odevler.csproj", "{C2AF541A-9E0E-49EF-A9A8-7F611AD1E8E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{15516DD4-487F-4D3B-8988-074936A4AEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15516DD4-487F-4D3B-8988-074936A4AEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15516DD4-487F-4D3B-8988-074936A4AEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AF541A-9E0E-49EF-A9A8-7F611AD1E8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AF541A-9E0E-49EF-A9A8-7F611AD1E8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AF541A-9E0E-49EF-A9A8-7F611AD1E8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AF541A-9E0E-49EF-A9A8-7F611AD1E8E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
