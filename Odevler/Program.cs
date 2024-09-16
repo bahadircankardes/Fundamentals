@@ -57,7 +57,7 @@ internal class Program
         //{
         //    Console.WriteLine(urunler[i]);
         //}
-        
+
         //urun.UrunAdi = sutunlar[1]
 
         //var sutunlar = satirlar[i].Split(";");
@@ -83,6 +83,9 @@ internal class Program
         ////{
 
         ////}
+        ///
+        Console.WriteLine("Hello");
+
         Console.ReadLine();
         #endregion
 
