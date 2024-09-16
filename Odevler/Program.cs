@@ -84,7 +84,6 @@ internal class Program
 
         ////}
         ///
-        Console.WriteLine("Hello");
 
         Console.ReadLine();
         #endregion
